@@ -1,0 +1,29 @@
+{
+    "name": "bitcoinprices",
+    "version": "1.0.0",
+    "description": "A simple web app to tell you current bitcoin prices.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielgraycode/ServerStatus.git"
+    },
+    "keywords": [
+        "bitcoin",
+        "bitcoin exchange"
+    ],
+    "author": "Daniel Gray",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danielgraycode/ServerStatus/issues"
+    },
+    "dependencies": {
+        "async": "^2.6.0",
+        "blockchain.info": "^2.11.0",
+        "coin-ticker": "^3.0.3",
+        "coinbase": "^2.0.6",
+        "express": "^4.16.2"
+    }
+}

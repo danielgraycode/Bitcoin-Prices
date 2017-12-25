@@ -1,0 +1,42 @@
+<!-- Copyright Daniel Gray 2017. Refer to LICENCE.MD for more info. -->
+<DOCTYPE HTML!>
+    <html>
+
+    <head>
+        <style>
+            .nextToSomething {
+                display: inline-block;
+                padding: 0.5em
+            }
+            
+            .footer {
+                position: fixed;
+                bottom: 0
+            }
+        </style>
+        <title>Bitcoin Prices</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <meta name="description" content="The latest bitcoin prices and information">
+    </head>
+
+    <body>
+        <h1 align="center" style="padding: 0.3em">Bitcoin Prices</h1>
+        <p align="center" style="padding: 0.2em">( Updated at:
+            <%= updatedtime %> )
+        </p>
+
+        <p align="center"><i>Current exchange value</i></p>
+        <p class="nextToSomething" align="left">
+            1 BTC is currently
+            <%= usdprice %> (United States Dollar),
+                <%= gbpprice %> (Great British Pounds), &yen;
+                    <%= cnyprice %> (Chinese Yuan Renminbi)
+        </p>
+
+
+        <p class="footer" align="center">Copyright © Daniel Gray 2017. Information provided by Coinbase </footer>
+        </p>
+    </body>
+
+    </html>
