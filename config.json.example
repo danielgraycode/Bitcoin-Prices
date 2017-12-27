@@ -1,0 +1,5 @@
+{
+    "port": "PORTNO",
+    "coinbaseapikey": "API key from keybase",
+    "coinbaseapisecret": "API secret from keybase"
+}
