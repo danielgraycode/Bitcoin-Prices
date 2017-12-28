@@ -1,5 +1,10 @@
 {
-    "port": "PORTNO",
+    "httpport": "PORTNO",
+    "httpsport": "PORTNO",
+    "sslenabled": "Enter 0 for SSL only, 1 for HTTP",
+    "sslenabled": "Enter 0 for no SSL, 1 for SSL",
+    "sslPrivateKey": "/path/to/ssl/key",
+    "sslCertificate": "/path/to/certificate",
     "coinbaseapikey": "API key from keybase",
     "coinbaseapisecret": "API secret from keybase"
 }
