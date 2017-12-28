@@ -41,11 +41,11 @@ app.get('/', function(req, res) {
 if (config.httpenabled === "1") {
     var httpServer = http.createServer(app)
     httpServer.listen(config.port)
-    console.log(`Bitcoin-Prices (HTTP) running on ${config.httpport}`)
+    console.log(`Bitcoin-Prices (HTTP) running on ${config.port}`)
 }
 
 
-if (config.sslenabled === "1") {
+if (config.sslenabled === "1" || process.argv.includes("--ssl")) {
     var privateKey = fs.readFileSync(config.sslPrivateKey, 'utf8');
     var certificate = fs.readFileSync(config.sslCertificate, 'utf8');
     var credentials = { key: privateKey, cert: certificate }

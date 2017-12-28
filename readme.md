@@ -8,4 +8,8 @@ and it is up and running!
 ### Recommendations
 I recommend using a process manager like [pm2](http://pm2.keymetrics.io/) to keep your Bitcoin-Prices process up and running.
 
+## Arguments
+When running the program, you can add the following to change the behaivour of the program.
+(If you always want the options on, configure the package.json accordingly.)
+* `--ssl` - Tells the program to start the configured SSL port.
 
