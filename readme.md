@@ -8,5 +8,4 @@ and it is up and running!
 ### Recommendations
 I recommend using a process manager like [pm2](http://pm2.keymetrics.io/) to keep your Bitcoin-Prices process up and running.
 
-## Please note, server side SSL currently not supported. I am working to make this happen.
 
